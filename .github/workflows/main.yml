@@ -1,6 +1,5 @@
 env:
     MY_NAME: "Alek"
-    
 on:
     push:
         branches:
@@ -12,5 +11,5 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v1
-            - run: ls -la
+            - run: echo "hello ${{ env.MY_NAME }}
             - uses: ./actions
