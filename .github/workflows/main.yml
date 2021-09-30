@@ -1,3 +1,6 @@
+env:
+    MY_NAME: "A"
+
 on:
     push:
         branches:
