@@ -1,0 +1,14 @@
+name: "Action"
+description: "Some description"
+author: "Aleksandr"
+inputs:
+    MY_NAME:
+        description: "Name description"
+        required: true
+        default: "Aleksandr"
+runs:
+    using: "docker"
+    image: "Dockerfile"
+branding:
+    icon: "mic"
+    color: "purple"
